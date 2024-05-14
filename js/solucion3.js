@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 document.addEventListener('DOMContentLoaded', function() {
     const txtTexto1 = document.getElementById('txtTexto1');
     const txtTexto2 = document.getElementById('txtTexto2');
@@ -25,10 +24,10 @@ document.addEventListener('DOMContentLoaded', function() {
       answer.value = resultado;
     });
   
-    // Agregar eventos click para los otros botones (Promediar y Obtener)
+
     const buttonPromediar = document.getElementById('Promediar');
     buttonPromediar.addEventListener('click', function() {
-      // Implementar la lógica para el botón "Promediar"
+
       const numero1 = parseInt(txtNumero1.value);
       const numero2 = parseInt(txtNumero2.value);
   
@@ -44,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
     const buttonObtener = document.getElementById('Obtener');
     buttonObtener.addEventListener('click', function() {
-      // Implementar la lógica para el botón "Obtener"
+
       const texto1 = txtTexto1.value;
       const texto2 = txtTexto2.value;
       const numero1 = parseInt(txtNumero1.value);
@@ -64,9 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
       answer.value = resultado;
     });
   });
-  
-=======
-function operarForm() {
+  /*
     var num1 = parseFloat(document.getElementById("val1").value);
     var num2 = parseFloat(document.getElementById("val2").value);
     var num3 = parseFloat(document.getElementById("val3").value);
@@ -97,5 +94,5 @@ function operarForm() {
     }
     // Mostrar resultados
     alert(comparacion + "\n" + igualesODistintos + "\n" + numerosPares);
-  };
->>>>>>> 517627e6c3c933ddc2f1ec6be82e4375f9003ed3
+  
+*/

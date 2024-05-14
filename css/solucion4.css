@@ -1,3 +1,97 @@
+<<<<<<< HEAD
+.container{
+    display: grid;
+    grid-template-areas: 
+    "head head head"
+    "navegar navegar navegar"
+    "prin prin dere";
+}
+
+.cont {
+    width: 60%;
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+header {
+    grid-area: head;
+    height: 150px;
+    border: 1px solid black;
+}
+
+header img {
+    padding-left: 20px;
+    width: 300px;
+    height: 120px;
+}
+
+nav {
+    margin: 10px;
+    grid-area: navegar;
+    height: 50px;
+    border: 1px solid black;
+    padding-top: 10px;
+}
+
+nav > a {
+    font-size: 20px;
+    padding-left: 350px;
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    margin: 10px;
+    grid-area: prin;
+    height: 80vh;
+    border: 1px solid black;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 250px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+}
+
+input {
+    width: 400px;
+    height: 30px;
+}
+
+#answer {
+    width: 400px;
+    height: 60px;
+    background-color: #7ED0EC;
+}
+
+button {
+    width: 400px;
+    height: 40px;
+    background-color: #37B4E0;
+    color: white;
+}
+
+aside {
+    margin: 10px;
+    grid-area: dere;
+    height: 80vh;
+    border: 1px solid black;
+}
+
+aside {
+    text-align: center;
+    font-size: 20px;
+}
+
+aside > img {
+    padding-top: 300px;
+    width: 300px;
+
+}
+=======
 .abs-center {
     display: flex;
     align-items: center;
@@ -7,3 +101,4 @@
   .form {
     width: 450px;
   }
+>>>>>>> 517627e6c3c933ddc2f1ec6be82e4375f9003ed3

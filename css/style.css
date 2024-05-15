@@ -1,27 +1,15 @@
-body{
+body {
     background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
-}
-.cont {
-    display: flex;
-
+    background-size: cover;
+    background-attachment: fixed;
 }
 .navcolor {
     background-image: radial-gradient(circle 976px at 51.2% 51%, rgba(11, 27, 103, 1) 0%, rgba(16, 66, 157, 1) 0%, rgba(11, 27, 103, 1) 17.3%, rgba(11, 27, 103, 1) 58.8%, rgba(11, 27, 103, 1) 71.4%, rgba(16, 66, 157, 1) 100.2%, rgba(187, 187, 187, 1) 100.2%);
+   
 }
-.img {
-    margin-right: 70%;
+nav ul.nav a.nav-link {
+    color: rgb(255, 255, 255);
 }
-
-.imga {
-    width: 260px;
-    margin-top: 370px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
 input[type="number"] {
     width: 100%;
     padding: 5px;
@@ -40,27 +28,27 @@ button {
     border: 1px solid;
     padding: 10px;
 }
-#idprincipal{
+
+#idprincipal {
     text-align: center;
 }
-      
+
 .btn-grad {
-    background-image: linear-gradient(to right, #348F50 0%, #56B4D3  51%, #348F50  100%);
+    background-image: linear-gradient(to right, #348F50 0%, #56B4D3 51%, #348F50 100%);
     margin: 10px;
     padding: 15px 45px;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;            
+    color: white;
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     display: block;
-  }
+}
 
-  .btn-grad:hover {
-    background-position: right center; 
+.btn-grad:hover {
+    background-position: right center;
     color: #fff;
     text-decoration: none;
-  }
- 
+}

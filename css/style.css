@@ -1,88 +1,20 @@
+body{
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+}
 .cont {
     display: flex;
 
 }
-
+.navcolor {
+    background-image: radial-gradient(circle 976px at 51.2% 51%, rgba(11, 27, 103, 1) 0%, rgba(16, 66, 157, 1) 0%, rgba(11, 27, 103, 1) 17.3%, rgba(11, 27, 103, 1) 58.8%, rgba(11, 27, 103, 1) 71.4%, rgba(16, 66, 157, 1) 100.2%, rgba(187, 187, 187, 1) 100.2%);
+}
 .img {
     margin-right: 70%;
-}
-
-nav {
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-
-#nav-sec1 ul {
-    width: 2133px;
-    height: 55px;
-    background-color: darkgreen;
-    list-style: none;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
-#nav-sec1 li {
-    display: inline-block;
-}
-
-#nav-sec1 a {
-    color: white;
-    text-decoration: none;
-    width: 160px;
-    display: block;
-    transition: .5s;
-    line-height: 55px;
-}
-
-a:hover {
-    background-color: green;
-    font-size: 15px;
-    height: 55px;
-}
-
-#empresa {
-    height: 680px;
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-#mision {
-    width: 1700px;
-}
-
-#valores {
-    width: 400px;
-}
-
-.caja {
-    width: 1650px;
-    height: 700px;
-    border: 2px solid #333;
-    padding: 20px;
-    box-sizing: border-box;
-    margin: auto;
-}
-
-.star {
-    width: 350px;
-    height: 700px;
-    border: 2px solid #333;
-    padding: 20px;
-    box-sizing: border-box;
-    margin: auto;
 }
 
 .imga {
     width: 260px;
     margin-top: 370px;
-}
-
-.container {
-    width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
 }
 
 label {
@@ -108,3 +40,27 @@ button {
     border: 1px solid;
     padding: 10px;
 }
+#idprincipal{
+    text-align: center;
+}
+      
+.btn-grad {
+    background-image: linear-gradient(to right, #348F50 0%, #56B4D3  51%, #348F50  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+  }
+ 

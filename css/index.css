@@ -3,13 +3,6 @@
     height: 25%;
 }
 
-.btn-image-bg {
-    background-size: cover;
-    background-color: white;
-    width: 45%;
-    height: 35%;
-}
-
 .typeText {
     font-size: larger;
 }
@@ -35,7 +28,7 @@ p {
 }
 
 body {
-    background-image: radial-gradient(circle 993px at 0.5% 50.5%, rgba(137, 171, 245, 0.37) 0%, rgba(245, 247, 252, 1) 100.2%);
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
 }
 h3{
     text-align: center;
@@ -43,3 +36,24 @@ h3{
 textarea{    
     height: 100px;
 }
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #348F50 0%, #56B4D3  51%, #348F50  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 

@@ -12,16 +12,16 @@
 </head>
 
 <body>
-    <header class="container-fluid p-4  ">
+    <header class="container-fluid p-4">
         <section class="row">
             <section id="logotipo" class="col-12 col-md-6 h-100">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/Logotipo_de_el_INTECAP.png"
-                    class="img-fluid float-start col-3 " alt=" ...">
+                    class="img-fluid float-start col-3 " alt=" Logotipo de el INTECAP">
             </section>
         </section>
     </header>
     <nav class="container-fluid p-4 ">
-        <section class="row">
+        <div class="row">
             <ul class="nav justify-content-center border typeText navcolor">
                 <li class="nav-item mt-2 mb-2">
                     <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
@@ -33,62 +33,58 @@
                     <a class="nav-link" href="html/solucion3.html">solucion No.3</a>
                 </li>
                 <li class="nav-item  mt-2 mb-2">
-                    <a class="nav-link" href="html/solucion4.html">solucion No.4<nav></nav></a>
+                    <a class="nav-link" href="html/solucion4.html">solucion No.4</a>
                 </li>
             </ul>
-        </section>
+        </div>
     </nav>
-    <main class="container px-4 text-center"">
-        <section class="row g-3 flex justify-content-center ">
-            <section class="col-md-8 border border-dark  me-md-3 mb-1 mb-md-0" >
+    <main class="container px-4 text-center" id="contenido-principal">
+        <div class=" row g-3 d-flex justify-content-center ">
+            <section class=" col-md-8 border border-dark me-md-3 mb-1 mb-md-0">
                 <article class=" col-md-12 p-3">
-                    <article class="col-12">
+                    <article class="col-12 mb-3">
                         <h3>Texto No.1</h3>
                         <div class="form-floating ">
                             <textarea class="form-control" placeholder="Leave a comment here" id="texto1"></textarea>
-                            <label for="floatingTextarea2">Ingrese texto</label>
+                            <label for="texto1">Ingrese texto</label>
                         </div>
                     </article>
-                    <article class="col-12">
+                    <article class="col-12 mb-3">
                         <h3>Texto No.2</h3>
                         <div class="form-floating ">
                             <textarea class="form-control" placeholder="Leave a comment here" id="texto2"></textarea>
-                            <label for="floatingTextarea2">Ingrese texto</label>
+                            <label for="texto2">Ingrese texto</label>
                         </div>
                     </article>
-                    <article class="col-12">
+                    <article class="col-12 mb-3">
                         <h3>Texto No.3</h3>
                         <div class="form-floating ">
                             <textarea class="form-control" placeholder="Leave a comment here" id="texto3"></textarea>
-                            <label for="floatingTextarea2">Ingrese texto</label>
+                            <label for="texto3">Ingrese texto</label>
                         </div>
                     </article>
-                    <article class="col-12">
+                    <article class="col-12 mb-3">
                         <h3>Texto No.4</h3>
                         <div class="form-floating ">
                             <textarea class="form-control" placeholder="Leave a comment here" id="texto4"></textarea>
-                            <label for="floatingTextarea2">Ingrese texto</label>
+                            <label for="texto4">Ingrese texto</label>
                         </div>
                     </article>
-                    <article class="col-12">
+                    <article class="col-12 mb-3">
                         <h3>Texto No.5</h3>
                         <div class="form-floating ">
                             <textarea class="form-control" placeholder="Leave a comment here" id="texto5"></textarea>
-                            <label for="floatingTextarea2">Ingrese texto</label>
+                            <label for="texto5">Ingrese texto</label>
                         </div>
-                    </article><br>
-                    <section class="row d-flex justify-content-between ">
-                        <button type="button" class="btn-grad col-md-3 mb-2 mx-1"
-                            onclick="concatenar()">Concatenar
-                            textos</button>
-                        <button type="button" class="btn-grad col-md-3 mb-2 mx-1" onclick="mayor()">Texto con
-                            mayor
-                            longitud</button>
-                        <button type="button" class="btn-grad col-md-3 mb-2 mx-1"
-                            onclick="ultimaLetra()">Formar
-                            palabra</button>
+                    </article>
+                    <section class="row d-flex justify-content-between mb-3">
+                        <button type="button" class="btn-grad col-md-3 mb-2 mx-1" onclick="concatenar()"
+                            aria-label="Concatenar textos">Concatenar textos</button>
+                        <button type="button" class="btn-grad col-md-3 mb-2 mx-1" onclick="mayor()"
+                            aria-label="Texto con mayor longitud">Texto con mayor longitud</button>
+                        <button type="button" class="btn-grad col-md-3 mb-2 mx-1" onclick="ultimaLetra()"
+                            aria-label="Formar palabra">Formar palabra</button>
                     </section>
-    
                     <section class="container-fluid col-md-8 p-3">
                         <h3>RESPUESTA</h3>
                         <div class="form-floating">
@@ -97,17 +93,17 @@
                     </section>
                 </article>
             </section>
-            <section class="col-md-3 border border-dark" >
+            <section class="col-md-3 border border-dark">
                 <article class=" col-md-12 p-3 ">
                     <h2>Creado por:</h2>
                     <p>Manuel Alfredo Reyes Montenegro</p>
                     <div class="d-flex justify-content-center">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKihiREENTwcYRILZ0HA9J64odhk24I4kgXs3RtMw-IA&s"
-                            class="img-fluid float-start" alt="...">
+                            class="img-fluid float-start" alt="Logotipo lateral INTECAP">
                     </div>
                 </article>
             </section>
-        </section>
+        </div>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

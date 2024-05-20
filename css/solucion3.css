@@ -1,103 +1,59 @@
-
-.container{
-    display: grid;
-    grid-template-areas: 
-    "head head head"
-    "navegar navegar navegar"
-    "prin prin dere";
+.tImagen {
+    width: 25%;
+    height: 25%;
 }
 
-.cont {
-    width: 60%;
-    padding-top: 20px;
-    padding-left: 150px;
+.typeText {
+    font-size: larger;
 }
 
-header {
-    grid-area: head;
-    height: 150px;
-    border: 1px solid black;
+nav ul.nav a.nav-link {
+    color: rgb(255, 255, 255);
+
 }
 
-header img {
-    padding-left: 20px;
-    width: 300px;
-    height: 120px;
+h1 {
+    text-align: center;
+
 }
 
-nav {
+p {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.navcolor {
+    background-image: radial-gradient(circle 976px at 51.2% 51%, rgba(11, 27, 103, 1) 0%, rgba(16, 66, 157, 1) 0%, rgba(11, 27, 103, 1) 17.3%, rgba(11, 27, 103, 1) 58.8%, rgba(11, 27, 103, 1) 71.4%, rgba(16, 66, 157, 1) 100.2%, rgba(187, 187, 187, 1) 100.2%);
+}
+
+body {
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+}
+h3{
+    text-align: center;
+}
+textarea{    
+    height: 100px;
+}
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #348F50 0%, #56B4D3  51%, #348F50  100%);
     margin: 10px;
-    grid-area: navegar;
-    height: 50px;
-    border: 1px solid black;
-    padding-top: 10px;
-}
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
 
-nav > a {
-    font-size: 20px;
-    padding-left: 350px;
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
     text-decoration: none;
-    color: black;
-}
-
-main {
-    margin: 10px;
-    grid-area: prin;
-    height: 80vh;
-    border: 1px solid black;
-    text-align: center;
-}
-
-form {
-    text-align: center;
-    padding-top: 30px;
-    margin-left: 250px;
-    padding-bottom: 10px;
-    border: 1px solid black;
-}
-
-input {
-    width: 400px;
-    height: 30px;
-}
-
-#answer {
-    width: 400px;
-    height: 60px;
-    background-color: #7ED0EC;
-}
-
-button {
-    width: 400px;
-    height: 40px;
-    background-color: #37B4E0;
-    color: white;
-}
-
-aside {
-    margin: 10px;
-    grid-area: dere;
-    height: 80vh;
-    border: 1px solid black;
-}
-
-aside {
-    text-align: center;
-    font-size: 20px;
-}
-
-aside > img {
-    padding-top: 300px;
-    width: 300px;
-
-}
-
-.abs-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
   }
-  .form {
-    width: 450px;
-  }
+ 

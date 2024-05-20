@@ -5,4 +5,6 @@
  |carnet|nombre|
  |------|------|
  |2014-05450| Manuel Alfredo Reyes Monenegro|
- |2023-060796| Luis Andres Linares Soliz
+ |2023-060796| Luis Andres Linares Soliz|
+ || Diego Antonio Lopez Sagastume|
+ || |
